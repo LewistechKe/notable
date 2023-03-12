@@ -1,0 +1,29 @@
+body {
+    background: #8533ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8533ff, #9900cc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8533ff, #9900cc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.responsive {
+    max-width: 75%;
+    height: auto;
+}
+
+img {
+    padding: 15px;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
